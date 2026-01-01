@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "devsecops-hotstar-reyaz" # Replace with your actual S3 bucket name
+    bucket = "devsecops-hotstar-sai"
     key    = "EKS/terraform.tfstate"
-    region = "ap-south-1"
+    resion = "us-east-1"
   }
 }
